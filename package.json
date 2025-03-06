@@ -1,0 +1,16 @@
+{
+  "name": "external-service-creatorsfy",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+      "start": "bun src/index.ts",
+      "seed": "bun src/scripts/jsonWriter.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
